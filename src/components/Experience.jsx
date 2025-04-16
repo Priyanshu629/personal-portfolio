@@ -1,11 +1,10 @@
-import React, { useRef } from 'react'
-import { motion, useInView } from "motion/react"
+import React from 'react'
+import { motion } from "motion/react"
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaFigma, FaGit, FaGithub,FaLink } from "react-icons/fa";
 
 const Experience = () => {
-    const ref = useRef(null)
-    const isInView = useInView(ref, { once: false, margin: "-100px" })
+    
     return (
         <div className='w-full p-4 min-h-screen'>
             <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-gray-700 w-[90%] mx-auto'>
@@ -13,15 +12,15 @@ const Experience = () => {
             </div>
             <motion.div
                 className='p-2  w-[100%] my-2 flex flex-col gap-[20px]'
-                ref={ref}
+                
                 initial={{
-                    x: 0
+                    x: "-100%"
                 }}
                 whileInView={{
-                    x: isInView ? 0 : "-110%",
+                    x: 0
                 }}
                 transition={{
-                    duration: .5,
+                    duration: 1,
                 }}
             >
 

@@ -1,13 +1,12 @@
-import React, { useRef } from 'react'
-import { motion, useInView } from "motion/react"
+import React from 'react'
+import { motion} from "motion/react"
 import { FaReact, FaFigma, FaGit, FaGithub, FaLink, FaHtml5, FaCss3, FaJs, FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 
 const Skills = () => {
-    const ref = useRef(null)
-    const isInView = useInView(ref, { once: false, margin: "-100px" })
+   
     return (
         <div className='w-full p-4 mt-[50px] min-h-screen'>
             <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-pink-700 w-[90%] mx-auto '>
@@ -15,12 +14,12 @@ const Skills = () => {
             </div>
             <motion.div
                 className='p-2  w-[100%] my-2 flex flex-col   gap-[20px]'
-                ref={ref}
+               
                 initial={{
                     y: "100px"
                 }}
                 whileInView={{
-                    y: isInView ? 0 : "100px",
+                    y:0
                 }}
                 transition={{
                     duration: 1,
