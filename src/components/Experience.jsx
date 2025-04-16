@@ -5,10 +5,10 @@ import { FaReact, FaFigma, FaGit, FaGithub,FaLink } from "react-icons/fa";
 
 const Experience = () => {
     const ref = useRef(null)
-    const isInView = useInView(ref, { once: false, margin: "-50px" })
+    const isInView = useInView(ref, { once: false, margin: "-100px" })
     return (
         <div className='w-full p-4 min-h-screen'>
-            <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-gray-700 w-1/2 mx-auto'>
+            <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-gray-700 w-[90%] mx-auto'>
                 <h1 className='text-2xl   '>Experience </h1><CgWorkAlt size={36} />
             </div>
             <motion.div

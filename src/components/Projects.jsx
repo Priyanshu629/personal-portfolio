@@ -9,7 +9,7 @@ const Projects = () => {
 
   return (
     <div className='w-[95%] mx-auto p-4   min-h-screen'>
-           <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-slate-700 w-1/2 mx-auto my-[50px]'>
+           <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-slate-700 w-[90%] mx-auto my-[50px]'>
                 <h1 className='text-2xl   '>My Projects </h1>
             </div>
 <div className='flex flex-wrap  gap-[25px]  items-center w-full mx-auto justify-center'>

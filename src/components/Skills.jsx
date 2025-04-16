@@ -10,7 +10,7 @@ const Skills = () => {
     const isInView = useInView(ref, { once: false, margin: "-100px" })
     return (
         <div className='w-full p-4 mt-[50px] min-h-screen'>
-            <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-pink-700 w-1/2 mx-auto '>
+            <div className='flex items-center justify-center gap-[30px] font-bold rounded-full bg-pink-700 w-[90%] mx-auto '>
                 <h1 className='text-2xl   '>My Skills </h1>
             </div>
             <motion.div
