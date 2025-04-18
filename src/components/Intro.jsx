@@ -37,8 +37,8 @@ const Intro = () => {
                         }
 
                     }}
-                    className='border-2 p-4 italic  font-semibold text-lg max-w-[500px] rounded-tl-[10px] rounded-br-[10px]  '>Hi, I’m Priyanshu Kumar Mishra — a passionate Frontend Developer from Kolkata, West Bengal.
-I hold a B.Sc. in Computer Science from the University of Calcutta and specialize in building responsive, modern web interfaces using React, Tailwind CSS, and Git.
+                    className='border-2 p-4 italic  font-semibold text-lg max-w-[500px] rounded-tl-[10px] rounded-br-[10px]  '>Hi, I’m Priyanshu Kumar Mishra — a passionate Web Developer from Kolkata, West Bengal.
+I hold a B.Sc. in Computer Science from the University of Calcutta and specialize in building responsive, modern web interfaces using React, Tailwind CSS, and Git. <br/> <br/>
 
 With a strong interest in clean design and real-world problem solving, I'm currently gaining hands-on experience through live internship projects. I'm eager to grow as a developer and work with dynamic teams in innovative IT companies.</motion.p>
 
