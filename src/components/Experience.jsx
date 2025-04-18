@@ -24,7 +24,7 @@ const Experience = () => {
                 }}
             >
 
-                <span className='text-xl font-bold text-orange-400'>Company : EcoEvr Mobility Privated Ltd.</span>
+                <span className='text-xl font-bold text-orange-400'>Company : EcoEvr Mobility Pvt Ltd.</span>
                 <span className='italic font-semibold '>Role : Frontend Developer Intern (React) (20th March 2025 - Present)</span>
                 
                 <div className='flex gap-[20px] font-bold  text-lg'>
