@@ -4,6 +4,7 @@ import { FaReact, FaFigma, FaGit, FaGithub, FaLink, FaHtml5, FaCss3, FaJs, FaNod
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Skills = () => {
    
@@ -38,6 +39,9 @@ const Skills = () => {
                     </div>
                     <div className='max-w-[400px]  p-2 rounde-sm border-2'>
                         <FaReact size={72} className=' ' />
+                    </div>
+                    <div className='max-w-[400px]  p-2 rounde-sm border-2'>
+                        <RiNextjsFill size={72} className=' ' />
                     </div>
                     <div className='max-w-[400px]  p-2 rounde-sm border-2'>
                         <RiTailwindCssFill size={72} className=' ' />
