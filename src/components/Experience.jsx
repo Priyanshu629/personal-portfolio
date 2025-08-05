@@ -25,7 +25,7 @@ const Experience = () => {
             >
 
                 <span className='text-xl font-bold text-orange-400'>Company : EcoEvr Mobility Pvt Ltd.</span>
-                <span className='italic font-semibold '>Role : Frontend Developer Intern (React) (20th March 2025 - Present)</span>
+                <span className='italic font-semibold '>Role : Frontend Developer Intern (React) (March 2025 - May 2025)</span>
                 
                 <div className='flex gap-[20px] font-bold  text-lg'>
                 <a href="https://bhavisyajyoti.netlify.app" target='_blank' className='my-[10px] flex gap-[15px] hover:text-green-200 underline'><FaLink size={24}/> <span>Live Link </span></a>
